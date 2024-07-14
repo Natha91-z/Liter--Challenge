@@ -1,0 +1,13 @@
+primavera:
+  fuente de datos:
+    nombre de clase del controlador: com.mysql.cj.jdbc.Driver
+    contrase�a: ''
+    URL: jdbc:mysql://localhost:3306/bookshop
+    nombre de usuario: root
+  jpa:
+    hibernar:
+      ddl-auto: actualizaci�n
+    propiedades:
+      hibernar:
+        dialecto: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
